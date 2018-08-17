@@ -8,19 +8,19 @@
 
 _When the user puts a numeric number in the input field it will change the output for any input that contains 0 and 1 value, also any number divisible by 3. Boopstrap and jQuery3.3.1 is also used to style and add interaction to the application._
 
-##Specs
+## Specs
 
 _Any number that is divisible by 3 will be replaced with "I'm sorry, -username-, I'm afraid I cannot do that."
-  *Input : 27
-  *Output : "I'm sorry -username-, I'm afraid I cannot do that."
+* _Input : 27
+* _Output : "I'm sorry -username-, I'm afraid I cannot do that."
 
 _Program replaces the value 0 with "Beep!"
-  *Input : 240
-  *Output : Beep!
+* _Input : 240
+* _Output : Beep!
 
 _Program replaces the value 1 with "Boop!"
-  *Input : 187
-  *Output: Boop!
+* _Input : 187
+* _Output: Boop!
 
 
 ## Setup/Installation Requirements

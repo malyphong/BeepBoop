@@ -10,18 +10,26 @@
   </head>
   <body>
     <div class="container">
+      <div class="jumbotron">
+        <h1>Beep! Boop! Beep!</h1>
+      </div>
       <form class="form-class">
-        <div class="input-group">
-
-
-
-
-
-
-
-
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="userName">Name: </span>
+          </div>
+          <input type="text" class="form-control" placeholder="First name" aria-label="Username" aria-describedby="userName">
         </div>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Enter Number</span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <button type="button" class="btn btn-secondary">Submit</button>
       </form>
+      <div class="output">
+      </div>
     </div>
   </body>
 </html>
