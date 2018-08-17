@@ -10,17 +10,17 @@ _When the user puts a numeric number in the input field it will change the outpu
 
 ## Specs
 
-_Any number that is divisible by 3 will be replaced with "I'm sorry, -username-, I'm afraid I cannot do that."
-* _Input : 27
-* _Output : "I'm sorry -username-, I'm afraid I cannot do that."
+Any number that is divisible by 3 will be replaced with "I'm sorry, -username-, I'm afraid I cannot do that."
+* _Input : 27_
+* _Output : "I'm sorry -username-, I'm afraid I cannot do that."_
 
-_Program replaces the value 0 with "Beep!"
-* _Input : 240
-* _Output : Beep!
+Program replaces the value 0 with "Beep!"
+* _Input : 240_
+* _Output : Beep!_
 
-_Program replaces the value 1 with "Boop!"
-* _Input : 187
-* _Output: Boop!
+Program replaces the value 1 with "Boop!"
+* _Input : 187_
+* _Output: Boop!_
 
 
 ## Setup/Installation Requirements
