@@ -6,32 +6,38 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Beep! Boop!</title>
   </head>
   <body>
     <div class="container">
       <div class="jumbotron">
         <h1>Beep! Boop! Beep!</h1>
       </div>
+          <p>For the first input box you'll want to put in a number to to end at.</p>
+          <p>For the second input box, you can put a single digit number to count by.</p>
         <form class="form-class">
           <div class="input-group mb-3">
             <div class="input-group-prepend">
-              <span class="input-group-text" id="userName">Name: </span>
+              <span class="input-group-text">Name: </span>
             </div>
-              <input type="text" class="userName" placeholder="First name" aria-describedby="userName">
-          </div>
+            <br>
+              <input class="userName" type="text">
           <div class="input-group">
             <div class="input-group-prepend">
               <span class="input-group-text">Enter Number</span>
             </div>
-            <input class="userInput" type="text">
+              <input class="multiDigit" type="text">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Enter Number</span>
+              </div>
+              <input class="singleDigit" type="text">
+            </div>
+            <button type="submit" class="btn btn-secondary">Submit</button>
           </div>
-          <br>
-          <button type="submit" class="btn btn-secondary">Submit</button>
         </form>
       <div class="output">
-        <ul class="ulOutput">
-        </ul>
+        <p id="output"></p>
       </div>
     </div>
   </body>

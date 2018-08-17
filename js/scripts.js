@@ -1,29 +1,25 @@
-var zero = "Beep!";
 var one = "Boop!";
-var phrase = "I'm sorry, ";
-var phrase2 = " I am afraid I cannot do this";
+var zero = "Beep!";
+var phrase = "i'm sorry!";
+var phrase2 = " i cannot do this!";
 
 
 
-var result = function(numericalInput) {
-  if (numericalInput % 3 === 0) {
-    return (phrase + userName + phrase2);
-  } else {
-    return true;
-  }
-}
 
 
 
 $(document).ready(function() {
   $("form.form-class").submit(function(event) {
     event.preventDefault();
-  var userName = ('.userName');
-  var input = parseInt($(".userInput").val());
-  var resultOutput = result(input);
 
+  var input1 = parseInt($(".multiDigit").val());
+  var input2 = parseInt($(".singleDigit").val());
+  var inputArray = [];
 
-    $("ul.ulOutput").append("<li>" + resultOutput + "</li>");
+  for (var i = 0; i <= input1; i += input2)
+    inputArray.push(i);
+
+    console.log(inputArray);
 
   });
 });
