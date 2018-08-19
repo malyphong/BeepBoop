@@ -1,25 +1,28 @@
-var one = "Boop!";
 var zero = "Beep!";
-var phrase = "i'm sorry!";
-var phrase2 = " i cannot do this!";
+var one = "Boop!";
+var phrase = "I'm sorry, Dave. I cannot do that";
+var numberArray = [];
 
 
+ var result = function(input) {
+  if (input % 3 === 0) {
+    alert("divisible");
+  } else if (input === 1) {
+    return one;
+  } else if (input === 0) {
+    return zero;
+  }
+}
 
 
-
-
-$(document).ready(function() {
+ $(document).ready(function() {
   $("form.form-class").submit(function(event) {
     event.preventDefault();
 
-  var input1 = parseInt($(".multiDigit").val());
-  var input2 = parseInt($(".singleDigit").val());
-  var inputArray = [];
+   var input = parseInt($(".inputNumber").val());
+   var resultOutput = result(input);
 
-  for (var i = 0; i <= input1; i += input2)
-    inputArray.push(i);
+     $("#output").append(resultOutput);
 
-    console.log(inputArray);
-
-  });
+   });
 });
