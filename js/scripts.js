@@ -5,11 +5,15 @@ var numberArray = [];
 
 
  var result = function(input) {
+   for(var index = 0; index <= input; index ++)
+    (numberArray).push(index);
   if (input % 3 === 0) {
-    alert("divisible");
-  } else if (input === 1) {
+    return phrase;
+    ;
+  } else if (numberArray === 1) {
     return one;
-  } else if (input === 0) {
+    numberArray.val().replace(one);
+  } else if (numberArray === 0) {
     return zero;
   }
 }
@@ -22,7 +26,7 @@ var numberArray = [];
    var input = parseInt($(".inputNumber").val());
    var resultOutput = result(input);
 
-     $("#output").append(resultOutput);
+     $("#output").text(resultOutput);
 
    });
 });
