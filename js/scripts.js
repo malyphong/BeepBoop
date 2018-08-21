@@ -7,19 +7,16 @@ var numberArray = [];
  var result = function(input) {
    for(var index = 0; index <= input; index ++)
     (numberArray).push(index);
-  if (input % 3 === 0) {
-    return phrase;
-    ;
-  } else if (numberArray === 1) {
-    return one;
-    numberArray.val().replace(one);
-  } else if (numberArray === 0) {
-    return zero;
+    if (input % 3 === 0) {
+      return phrase;
+    } else if (index.toString().includes('1')) {
+      numberArray.push(one)
+      console.log(numberArray);
+    } else if (numberArray === 0) {
+      return zero;
   }
 }
-
-
- $(document).ready(function() {
+$(document).ready(function() {
   $("form.form-class").submit(function(event) {
     event.preventDefault();
 
