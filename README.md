@@ -10,32 +10,34 @@ _When the user puts a numeric number in the input field it will change the outpu
 
 ## Specs
 
-Any number that is divisible by 3 will be replaced with "I'm sorry, -username-, I'm afraid I cannot do that."
-* _Input : 27_
-* _Output : "I'm sorry -username-, I'm afraid I cannot do that."_
+Any number that is divisible by 3 will be replaced with "I'm sorry, Dave! I'm afraid I cannot do that."
+* _Input : [0, 1, 2, 3, 4]
+* _Output : [0, 1, 2, I'm sorry, Dave! I'm afraid I cannot do that., 4]_
 
 Program replaces the value 0 with "Beep!"
-* _Input : 240_
-* _Output : Beep!_
+* _Input : [0, 1, 2, 3, 4, 5, 6]_
+* _Output : [Beep!, 1, 2, I'm sorry Dave! I'm afraid I cannot do that., 4, 5, I'm sorry Dave! I'm afraid I cannot do that.]_
 
 Program replaces the value 1 with "Boop!"
-* _Input : 187_
-* _Output: Boop!_
+* _Input : [8, 9, 10, 11, 12, 13]_
+* _Output: [8, I'm sorry Dave! I'm afraid I cannot do that., Boop!, Boop! I'm sorry Dave! I'm afraid I cannot do that., Boop!]_
+
+Program leaves integers that are not divisble by 3 and integers that do not contain 1 or 0 alone
+*_Input: [0, 1, 2, 3, 4, 5, 6]
+*_Output: [Beep!, Boop!, I'm sorry Dave! I'm afraid I cannot do that., 4, 5, I'm sorry Dave! I'm afraid I cannot do that.]
 
 
 ## Setup/Installation Requirements
 
-* _Clone BeepBoop! from github_
-* _Use any simple text editor_
+*_Clone BeepBoop! from github_
+*_Use any simple text editor_
+*_Download jQuery-3.3.1.js_
+*_Download Bootstrap_
 
-
-## Known Bugs
-
-_At this moment there are no known bugs._
 
 ## Support and contact details
 
-_IF there are any questions or would like to contribute to the application please email (Maly Phongsavanh)[phongsavanh619@icloud.com]_
+_If there are any questions or would like to contribute to the application please email (Maly Phongsavanh)[phongsavanh619@icloud.com]_
 
 ## Technologies Used
 
