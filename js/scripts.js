@@ -1,5 +1,4 @@
 var zero = "Beep!";
-var one = "Boop!";
 var phrase = "I'm sorry, Dave. I cannot do that";
 var numberArray = [];
 
@@ -9,8 +8,8 @@ var numberArray = [];
     (numberArray).push(index);
     if (input % 3 === 0) {
       return phrase;
-    } else if (index.toString().includes('1')) {
-      numberArray.push(one)
+    } else if (numberArray.toString().includes('1')) {
+      numberArray.push("Boop!")
       console.log(numberArray);
     } else if (numberArray === 0) {
       return zero;
