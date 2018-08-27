@@ -23,6 +23,5 @@ $(document).ready(function() {
    var resultOutput = result(input);
 
      $("#output").text(resultOutput);
-     $(".reverseOutput").text(resultOutput)
    });
 });
