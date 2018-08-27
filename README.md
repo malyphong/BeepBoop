@@ -23,16 +23,16 @@ Program replaces the value 1 with "Boop!"
 * _Output: [8, I'm sorry Dave! I'm afraid I cannot do that., Boop!, Boop! I'm sorry Dave! I'm afraid I cannot do that., Boop!]_
 
 Program leaves integers that are not divisble by 3 and integers that do not contain 1 or 0 alone
-*_Input: [0, 1, 2, 3, 4, 5, 6]_
-*_Output: [Beep!, Boop!, I'm sorry Dave! I'm afraid I cannot do that., 4, 5, I'm sorry Dave! I'm afraid I cannot do that.]_
+* _Input: [0, 1, 2, 3, 4, 5, 6]_
+* _Output: [Beep!, Boop!, I'm sorry Dave! I'm afraid I cannot do that., 4, 5, I'm sorry Dave! I'm afraid I cannot do that.]_
 
 
 ## Setup/Installation Requirements
 
-*_Clone BeepBoop! from github_
-*_Use any simple text editor_
-*_Download jQuery-3.3.1.js_
-*_Download Bootstrap_
+* _Clone BeepBoop! from github_
+* _Use any simple text editor_
+* _Download jQuery-3.3.1.js_
+* _Download Bootstrap_
 
 
 ## Support and contact details
