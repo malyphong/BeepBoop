@@ -1,0 +1,13 @@
+body {
+  padding: 50px;
+  font-family: 'Press Start 2P', cursive;
+}
+h1 {
+  font-family: 'Press Start 2P', cursive;
+}
+.output {
+  display: none;
+  background: #ebeff4;
+  text-align: justify;
+  margin: inherit;
+}
