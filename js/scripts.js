@@ -9,7 +9,9 @@ var numberArray = [];
     } else if (index === 1 || numberArray.toString().includes('1')) {
       newArray.push("Boop!")
       console.log(newArray);
-      // skips 0, 2, 4, 5, 7,// numbers that are not 1 or divisible by 3
+    } else if (index === 0 || numberArray.toString().includes('0')) {
+      newArray.push("Beep!");
+      // 10 and 20 are still not changed"
     } else {
       newArray.push(index);
     }
